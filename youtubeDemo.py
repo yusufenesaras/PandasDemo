@@ -46,8 +46,8 @@ df = pd.read_csv("Data/GBvideos.csv")  # verimizi pandas ile okuduk.
 # result = df.sort_values("views", ascending = False)[["title","views"]] # burayı çalıştırısak en çoktan az' a doğru gider.
 # result = df.sort_values("views", ascending = False)[["title","views"]].head(10) # burada ilk 102 u buluruz.
 # sıralama işlemi yine views' e göre yapılır.
-# ama böyle yaparsak en azdan en fazlaya foğru gider.
-# Sort ile sıralama yaptığımızda 1. indexten balar bu durumda en düşükten başlar.
+# ama böyle yaparsak en azdan en fazlaya doğru gider.
+# Sort ile sıralama yaptığımızda 1. indexten başlar bu durumda en düşükten başlar.
 # Tersten sıralarsak sorun çözülür. Bunu da ascending ile yaparız.
 
 
