@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # pandas kütüphanesini import ettik.
 
 df = pd.read_csv("Data/GBvideos.csv")  # verimizi pandas ile okuduk.
 # result = df.head(10) # ilk 10 kaydımızı önizledik.
